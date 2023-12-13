@@ -17,7 +17,7 @@ body {
 
 .calculator {
   background-color: #000;
-  margin: 2rem 2rem;
+  margin: 2rem;
   border: 1px;
   max-width: 300px;
   margin: 0 auto;
@@ -64,7 +64,6 @@ input::placeholder {
 .greybg {
   background-color: #afafaf;
   border-radius: 2rem;
-  height: 50px;
   padding: 1rem;
   font-size: 24px;
   width: fit-content;
@@ -90,7 +89,6 @@ input::placeholder {
 }
 
 #zero {
-  padding-right: 5.5rem;
   background-color: #262626;
   color: #fff;
   font-size: 50px;
