@@ -39,7 +39,7 @@ buttons.forEach(button => {
   })
 })
 
-function calculate(num1, operator, num2) {
+function calculate (num1, operator, num2) {
   switch (operator) {
     case '+':
       return parseFloat(num1 + num2)
