@@ -1,5 +1,5 @@
 const display = document.getElementById('calc-display')
-const buttons = document.querySelectorAll('[data-number], [data-operation], [data-all-clear], [data-equals]')
+const buttons = document.querySelectorAll("[data-number], [data-operation], [data-all-clear], [data-equals]")
 
 let firstOperand = ''
 let operator = ''
