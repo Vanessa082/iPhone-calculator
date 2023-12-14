@@ -47,7 +47,7 @@ function calculate(num1, operator, num2) {
       return parseFloat(num1 - num2)
     case '×':
       return parseFloat(num1 * num2)
-    case '÷'::
+    case '÷':
       return parseFloat(num1 / num2)
     default:
       return 'Error'
