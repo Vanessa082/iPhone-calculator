@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <title>iphone-calculator</title>
 </head>
 
@@ -16,37 +20,37 @@
 
     <div class="keypad">
       <div class="row">
-        <button data-all-clear class="greybg">AC</button>
-        <button data-operation class="greybg">+/-</button>
-        <button data-operation class="greybg">%</button>
-        <button class="oranbg">&divide;</button>
+        <input data-all-clear class="greybg number" value="AC" onclick="clr()">
+        <input data-operation class="greybg number"  value="-/+" onclick="plusMinus()">
+        <input data-operation class="greybg number" value= "%" onclick="show('%')">
+        <input class="oranbg number" value= "&divide"onclick="show('/')">
       </div>
 
       <div class="row1">
-        <button data-number class="darkbg">7</button>
-        <button data-number class="darkbg">8</button>
-        <button data-number class="darkbg">9</button>
-        <button data-operation class="oranbg">&times;</button>
+        <input data-number class="darkbg number" value= "7" onclick="show(7)">
+        <input data-number class="darkbg number" value= "8" onclick="show(8)">
+        <input data-number class="darkbg number" value= "9"  onclick="show(9)">
+        <input data-operation class="oranbg number" value= "&times"  onclick="show('*')">
       </div>
 
       <div class="row1">
-        <button data-number class="darkbg">4</button>
-        <button data-number class="darkbg">5</button>
-        <button data-number class="darkbg">6</button>
-        <button data-operation class="oranbg">&minus;</button>
+        <input data-number class="darkbg number" value="4" onclick="show(4)">
+        <input data-number class="darkbg number" value="5" onclick="show(5)">
+        <input data-number class="darkbg number" value="6" onclick="show(6)">
+        <input data-operation class="oranbg number" value="&minus" onclick="show('-')">
       </div>
 
       <div class="row1">
-        <button data-number class="darkbg">1</button>
-        <button data-number class="darkbg">2</button>
-        <button data-number class="darkbg">3</button>
-        <button data-operation class="oranbg"> &plus;</button>
+        <input data-number class="darkbg number" value="1" onclick="show(1)">
+        <input data-number class="darkbg number" value="2" onclick="show(2)">
+        <input data-number class="darkbg number" value="3" onclick="show(3)">
+        <input data-operation class="oranbg number" value="&plus" onclick="show('+')"> 
       </div>
 
       <div class="row1">
-        <button  data-number id="zero">0</button>
-        <button data-number class="darkbg">.</button>
-        <button data-equals class="oranbg">&equals;</button>
+        <input data-number id="zero" value="0" onclick="show(0)">
+        <input data-number class="darkbg number" value="." onclick="show('.')">
+        <input data-equals class="oranbg number" value="&equalsv" onclick="mathOperation()">
       </div>
     </div>
   </div>

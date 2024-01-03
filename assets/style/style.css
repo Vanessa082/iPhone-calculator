@@ -1,11 +1,23 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   border: none;
 }
 
-body {
+/* body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  gap: 0.3rem;
+  border-radius: 1rem;
+  max-width: 400px;
+  height: 100%;
   background-color: #f8f9fa;
-  margin-top: 2rem;
-}
+  margin: auto;
+
+  /* margin-top: 2rem; */
+/* }
 
 .keypad {
   display: flex;
@@ -60,10 +72,17 @@ input::placeholder {
   width: fit-content;
 }
 
+.number {
+  padding: 1.2rem 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #4b4949b0;
+  border-radius: 10rem;
+  font-size: 1.7rem;
+}
+
 .greybg {
   background-color: #afafaf;
-  border-radius: 2rem;
-  padding: 1rem;
   font-size: 24px;
   width: fit-content;
   height: fit-content;
@@ -98,4 +117,4 @@ input::placeholder {
   text-align: left;
   cursor: pointer;
   overflow: hidden;
-}
+} */ */
