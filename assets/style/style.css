@@ -5,116 +5,60 @@
   border: none;
 }
 
-/* body {
+body{
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  padding-top: 1rem;
-  gap: 0.3rem;
-  border-radius: 1rem;
-  max-width: 400px;
-  height: 100%;
-  background-color: #f8f9fa;
-  margin: auto;
-
-  /* margin-top: 2rem; */
-/* }
-
-.keypad {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 100%;
-  padding-top: 20px;
-}
-
-.calculator {
-  background-color: #000;
-  border: 1px;
-  max-width: 300px;
-  margin: 0 auto;
-  padding: 60px 50px;
-  border-radius: 16px;
   align-items: center;
+  justify-content: center;
 }
 
-.calculator .border input {
-  width: 100%;
-  font-size: 30px;
-  text-align: right;
+.calculator{
   background-color: #000;
-  border: none;
-  color: #fff;
-  margin: 0 auto;
-  height: 9vh;
-  padding-top: 1rem;
+  height: 80vh;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  
 }
 
-input::placeholder {
-  color: #ddd;
+#calc-display{
   text-align: right;
-  font-size: 69px;
+  width: 100%;
+  max-width: 50vh;
+  height: 9vh;
+  font-size: 2rem;
+  color: #fff;
+  margin: 2rem;
+  cursor: pointer;
+  background-color: #860808;
 }
 
-.row {
-  display: flex;
+.keypad{
+  gap: 10px;
+  width: 50vh;
   margin: 0 auto;
-  gap: 16px;
-  max-width: 400px;
-  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
 }
 
-.row1 {
+.row{
   display: flex;
+  max-width: fit-content;
   margin: 0 auto;
-  max-width: 400px;
-  gap: 16px;
-  font-size: 30px;
-  width: fit-content;
+  gap: 5px;
+}
+
+.row1{
+  display: flex;
+  max-width: fit-content;
+  margin: 0 auto;
+  gap: 5px;
 }
 
 .number {
-  padding: 1.2rem 0;
-  width: 100%;
-  height: 100%;
-  border: 1px solid #4b4949b0;
-  border-radius: 10rem;
-  font-size: 1.7rem;
-}
-
-.greybg {
-  background-color: #afafaf;
-  font-size: 24px;
-  width: fit-content;
-  height: fit-content;
-}
-
-.darkbg {
-  background-color: #262626;
-  color: #fff;
-  font-size: 27px;
-  padding: 16px 24px;
-  border-radius: 50%;
   text-align: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
 }
-
-.oranbg {
-  background-color: #ffae00;
-  font-size: 40px;
-  padding: 8px 16px;
-  border-radius: 2rem;
-  height: fit-content;
-  width: fit-content;
-}
-
-#zero {
-  background-color: #262626;
-  color: #fff;
-  font-size: 50px;
-  height: fit-content;
-  width: 8vw;
-  padding: 3px;
-  border-radius: 2rem;
-  text-align: left;
-  cursor: pointer;
-  overflow: hidden;
-} */ */
