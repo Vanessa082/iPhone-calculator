@@ -24,13 +24,17 @@ body{
 #calc-display{
   text-align: right;
   width: 80%;
-  /* max-width: 38vh; */
   height: 9vh;
   font-size: 2rem;
   color: #fff;
-  margin: 2rem;
+  margin: 2rem 5rem 1rem 3rem;
   cursor: pointer;
-  background-color: #860808;
+  background-color: #1c1c1c;
+}
+
+#calc-display:focus
+#calc-display:valid{
+  outline: 0;
 }
 
 .keypad{
@@ -40,21 +44,21 @@ body{
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  background-color: antiquewhite;
+  gap: 1rem;
 }
 
 .row{
   display: flex;
   max-width: fit-content;
   margin: 0 auto;
-  gap: 5px;
+  gap: 16px;
 }
 
 .row1{
   display: flex;
   max-width: fit-content;
   margin: 0 auto;
-  gap: 5px;
+  gap: 16px;
 }
 
 .number {
@@ -65,13 +69,25 @@ body{
   margin-bottom: 10px;
 }
 
+.darkbg,#zero{
+  background-color: #505050;
+}
 
+.greybg{
+  background-color: #d4d4d2;
+}
+
+.oranbg{
+  background-color: #ff9500;
+}
+
+.darkbg,.oranbg,#zero{
+  color: #d4d4d2;
+}
 #zero{
   width: 6rem;
   font-size: 16px;
-  /* height: 3rem; */
   padding: 0 4px;
-  /* padding: 0 10px; */
   text-align: left;
   border-radius: 24px;
   margin-bottom: 10px;
