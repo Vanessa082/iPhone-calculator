@@ -1,17 +1,16 @@
 const monitor = document.getElementById('calc-display')
 
-function clr () {
+function clr() {
   monitor.value = ''
 }
 clr()
 
-
-function plusMinus () {
+function plusMinus() {
   const currentNum = parseFloat(monitor.value)
   monitor.value = -currentNum
 }
 
-function arithmeticOperation (a, b, sign) {
+function arithmeticOperation(a, b, sign) {
   switch (sign) {
     case '+':
       return a + b
@@ -35,13 +34,12 @@ function arithmeticOperation (a, b, sign) {
   }
 }
 
-
-function show (val) {
+function show(val) {
   monitor.value += val
 }
 show('')
 
-function mathOperation () {
+function mathOperation() {
   const equation = monitor.value
   const operator = equation.match(/[/*-+%]/)[0]
   const vals = equation.split(operator)
